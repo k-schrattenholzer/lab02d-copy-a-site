@@ -15,7 +15,6 @@ html, body {
     height: 100%;
     display: grid;
     grid-template-rows: 55px 1fr;
-    ;
 }
 
 header {
@@ -25,8 +24,6 @@ header {
     justify-items: center;
     border: none;
     color: black;
-    
-
 }
 
 .search {
@@ -45,7 +42,7 @@ a {
     grid-template-rows: 100px 1fr;
     justify-items: center;
     background-color: black;
-    color: cornsilk;
+    color: white;
     width: 100%;
     height: min-content;
 }
@@ -53,18 +50,14 @@ a {
     display: grid;
     grid-template-columns: 5fr 3fr 1fr;
     align-items: center;
-    font-size: 30px;
-    
-}
-hr {
-    color: white;
+    font-size: 30px; 
 }
 .experiences {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 60%; 
 }
-
 .exp {
     margin: 10px;
 }
